@@ -1,23 +1,38 @@
 .container {
     display: grid;
-    grid-template-rows: 100px 100px 100px 100px 100px 100px ;
-    grid-template-columns: 100px 100px 100px 100px 100px 100px ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-columns:1fr 1fr 1fr ;
 }
 
 .main-image {
-    height: 90%;
-    width: auto;
+    height: fit-content;
+    width: 70%;
 
 }
 
 .title {
+
     position: absolute;
     top: 50%;
     left: 50%;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .front-page {
     position: relative;
     text-align: center;
     color: rgb(0, 0, 0)
+}
+
+.review-1 {
+    display:grid
+}
+
+.review-2 {
+    display:grid
+}
+
+.review-3 {
+    display:grid
 }
