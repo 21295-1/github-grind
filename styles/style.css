@@ -21,7 +21,7 @@ img {
     top: 50%;
     left: 50%;
     font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Julius Sans One"
 }
 
 .front-page {
@@ -47,6 +47,7 @@ img {
 
 .review-image {
     display:grid;
+    padding-left: 40%;
     width:60%;
     height: auto;
     
