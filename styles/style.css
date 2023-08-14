@@ -1,18 +1,23 @@
 .container {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr ;
-    grid-template-columns:1fr 1fr 1fr ;
+    grid-template-columns:1fr 1fr;
+    
+}
+
+img {
+    width:100%;
 }
 
 .main-image {
-    height: fit-content;
-    width: 70%;
+    height: 100%;
+    width: 100%;
+
+
 
 }
 
 .title {
-
-    position: absolute;
+    position:absolute;
     top: 50%;
     left: 50%;
     font-weight: bold;
@@ -20,19 +25,39 @@
 }
 
 .front-page {
-    position: relative;
+    display:grid;
+    position:relative;
     text-align: center;
-    color: rgb(0, 0, 0)
+    background-color: beige;
+    
 }
 
 .review-1 {
-    display:grid
+    display:grid;
+    left: 50%;
 }
 
 .review-2 {
-    display:grid
+    display:grid;
 }
 
 .review-3 {
-    display:grid
+    display:grid;
+}
+
+.review-image {
+    display:grid;
+    width:60%;
+    height: auto;
+    
+}
+
+#img1 {
+    display: grid;
+    width: fit-content;
+    height: auto;
+}
+
+.pa {
+    background-color: beige;
 }
