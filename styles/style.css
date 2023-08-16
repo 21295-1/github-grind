@@ -21,7 +21,7 @@ img {
     top: 50%;
     left: 50%;
     font-weight: bold;
-    font-family: "Julius Sans One"
+    font-family: 'Julius Sans One';
 }
 
 .front-page {
@@ -39,6 +39,7 @@ img {
 
 .review-2 {
     display:grid;
+    background-color: beige;
 }
 
 .review-3 {
