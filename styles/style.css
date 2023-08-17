@@ -1,3 +1,7 @@
+*{
+    margin:0
+}
+
 .container {
     display: grid;
     grid-template-columns:1fr 1fr;
@@ -28,28 +32,31 @@ img {
     display:grid;
     position:relative;
     text-align: center;
-    background-color: beige;
+    background-color:lightgrey;
     
 }
 
 .review-1 {
     display:grid;
+    grid-template-columns: 1fr 2fr;
     left: 50%;
 }
 
 .review-2 {
     display:grid;
-    background-color: beige;
+    grid-template-columns: 1fr 2fr;
+
 }
 
 .review-3 {
     display:grid;
+    grid-template-columns: 1fr 2fr;
 }
 
 .review-image {
     display:grid;
-    padding-left: 40%;
-    width:60%;
+
+
     height: auto;
     
 }
@@ -61,5 +68,30 @@ img {
 }
 
 .pa {
-    background-color: beige;
+    text-align: center;
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.review-paragraph {
+    display: grid;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    width:70%;
+    margin: auto;
+}
+
+.review-title {
+    text-align: center;
+    font-family: 'Julius Sans One';
+}
+
+.idk-what-its-called {
+    background-color: lightgray;
+}
+
+.main-body {
+    width: 95%;
+    margin: auto;
 }
