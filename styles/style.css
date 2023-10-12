@@ -5,7 +5,7 @@
 .container {
     display: grid;
     grid-template-columns:1fr 1fr;
-    
+
 }
 
 img {
@@ -69,15 +69,16 @@ img {
 
 .pa {
     text-align: center;
-    background-color: lightgray;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    font-family: "Julius Sans One";
+
 
 }
 
 .review-paragraph {
     display: grid;
     text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Julius Sans One';
     width:70%;
     margin: auto;
 }
@@ -94,4 +95,5 @@ img {
 .main-body {
     width: 95%;
     margin: auto;
+
 }
